@@ -1,32 +1,26 @@
 body {
     background-color: #0d0d0e;
-    background-image: url(imagenes/messi\ leagues\ cup.png);
+    background-image: url(imagenes/fondo.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1920px;
 }
 
 .photocard img {
-    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
-    border-radius: 10px; /* Redondear la imagen */
+    max-width: 200%; /* Asegura que la imagen se ajuste al contenedor */
+    border-radius: 200px; /* Redondear la imagen */
     float: left; /* O 'right' para moverla a la derecha */
     margin: 10px;
     
-}
-
-.foto2 img {
-    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
-    border-radius: 10px; /* Redondear la imagen */
-    float: right; /* O 'right' para moverla a la derecha */
-    margin: 10px;
-
+    
 }
 
 h1 {
     font-size: 60px;
-    color: black;
+    color: rgb(29, 27, 27);
     text-align: center;
-    text-shadow: #f0f0f0;
-    font-family: 'Cinzel',aria
+    text-shadow: #f1b9d4 2px 2px 5px;
+    font-family: 'Cinzel'
+    
 }
 
 img {
@@ -37,8 +31,29 @@ img {
 .cuadro {
     border-radius: 10px;
     border: 2px solid #000; /* Bordes del cuadro */
+    padding: 30px; /* Espaciado interno */
+    width: 350px; /* Ancho del cuadro */
+    text-align: center; /* Alinear texto al centro */
+    background-color: #f0f0f0; /* Color de fondo */
+    float: right;
+    margin-top: 20px;
+
+}
+
+
+.cuadro2 {
+    border-radius: 10px;
+    border: 2px solid #000; /* Bordes del cuadro */
     padding: 20px; /* Espaciado interno */
-    width: 300px; /* Ancho del cuadro */
+    width: 340px; /* Ancho del cuadro */
     text-align: center; /* Alinear texto al centro */
     background-color: #f0f0f0; /* Color de fondo */
 }
+
+a{
+font-size: 30px;
+color: #f87ab7;
+text-shadow: #000000 2px 2px 4px;
+
+}
+
